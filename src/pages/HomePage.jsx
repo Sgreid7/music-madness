@@ -8,9 +8,15 @@ const HomePage = () => {
       <header>Welcome to Music Madness!</header>
       <p>My Top 3 Favorite Bands:</p>
       <ul>
-        <li>Between the Buried and Me</li>
-        <li>TOOL</li>
-        <li>Periphery</li>
+        <li>
+          <Link to="/btbam">Between the Buried and Me</Link>
+        </li>
+        <li>
+          <Link to="/tool">TOOL</Link>
+        </li>
+        <li>
+          <Link to="/periphery">Periphery</Link>
+        </li>
       </ul>
       <p>
         These bands can loosely be grouped into one genre known as Progressive

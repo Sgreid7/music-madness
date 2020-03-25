@@ -36,15 +36,15 @@ nav li {
   text-decoration: none;
 }
 
-nav a {
+a {
   text-decoration: none;
 }
 
-nav a:visited {
+a:visited {
   color: #000;
 }
 
-nav a:hover {
+a:hover {
   color: blue;
 }
 
