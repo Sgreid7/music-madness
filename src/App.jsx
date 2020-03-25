@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
-import BTBAM from './pages/BTBAM'
-import TOOL from './pages/TOOL'
-import Periphery from './pages/Periphery'
 import HomePage from './pages/HomePage'
+import BandPage from './pages/BandPage'
 
 const App = () => {
   return (
@@ -26,9 +24,7 @@ const App = () => {
       </nav>
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
-        <Route exact path="/btbam" component={BTBAM}></Route>
-        <Route exact path="/tool" component={TOOL}></Route>
-        <Route exact path="/periphery" component={Periphery}></Route>
+        <Route exact path="/:band" component={BandPage}></Route>
       </Switch>
     </Router>
   )

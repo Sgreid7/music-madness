@@ -1,0 +1,17 @@
+{
+  "btbam": {
+    "name": "Between the Buried and Me",
+    "image": "https://www.metalblade.com/us/mainpics/between-the-buried-and-me.jpg",
+    "information": "The latest album, Automata, from BTBAM is a 2 part album (Automata I and Automata II) Automata is a concept album which revolves around the idea of being able to view the dreams of others."
+  },
+  "tool": {
+    "name": "TOOL",
+    "image": "https://media1.fdncms.com/inlander/imager/u/original/19220056/music1-1-282d582cb3714981.jpg",
+    "information": "Fear Inoculum is TOOL's 5th studio album, and their first in 13 years. The band has successfully redefined their sound, and two of the songs on the album had received Grammy nominations, with one song winning the award for the Best Metal Performance."
+  },
+  "periphery": {
+    "name": "Periphery",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/20151122_Eindhoven_Epic_Metal_Fest_Periphery_0116.jpg",
+    "information": "Periphery IV: Hail Stan is Periphery's sixth studio album, and their first album on their own label, 3DOT Recordings. This album also features live orchestrations and choir from a Grammy nominated music composer, Randy Slaugh."
+  }
+}
