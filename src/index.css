@@ -10,3 +10,63 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+img {
+  height: 30vh;
+  width: 100;
+  border-radius: 25%;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+
+nav li {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  justify-content: center;
+  color: #000;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #000;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+div li, p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+div p {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section ul {
+  padding: 0;
+}
